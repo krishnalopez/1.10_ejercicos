@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container button{
+    background-color: rgb(247, 178, 76);
+    border: none;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+}
